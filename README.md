@@ -1,3 +1,5 @@
+# Charity Finder App
+
 ## Descripción
 Charity Finder es una aplicación web que utiliza la API de GlobalGiving para conectar a los usuarios con organizaciones benéficas de todo el mundo. Permite realizar búsquedas personalizadas por nombre, país de origen, países atendidos y temáticas filantrópicas, ofreciendo una experiencia clara y pulida para incentivar el apoyo a causas sociales.
 
