@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charity Finder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="main-header">
+    <h1>Charity Finder</h1>
+  </header>
+
+  <section class="splash">
+    <h2>Encuentra y apoya causas filantrópicas</h2>
+    <p>Conecta con organizaciones sin fines de lucro de todo el mundo.</p>
+  </section>
+
+  <!-- US-03: Contenedor de búsqueda -->
+  <section class="search-container">
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Buscar por palabra clave o país...">
+      <button type="submit">Buscar</button>
+    </form>
+  </section>
+
+  <!-- US-05 y US-06: Contenedor donde JS insertará las tarjetas -->
+  <main id="results-container" class="cards-grid"></main>
+
+  <!-- US-07: Pie de página -->
+  <footer class="main-footer">
+    <p>Proyecto desarrollado para el MVP</p>
+    <a href="https://github.com/TuUsuarioGitHub" target="_blank">Mi Perfil de GitHub</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
